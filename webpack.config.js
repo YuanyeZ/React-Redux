@@ -7,7 +7,7 @@ var entryPath = path.join(__dirname, 'src/js');
 var outputPath = path.join(__dirname, 'src');
 module.exports = {
     entry: {
-        javascript: path.join(entryPath, 'Main.js')
+        javascript: path.join(entryPath, 'App.js')
     },
     output: {
         path: outputPath,
